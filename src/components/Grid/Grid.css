@@ -1,0 +1,126 @@
+/* For=grid.jsx */
+.grid-container {
+    transform: translateY(2.5rem);
+    border: 1px solid grey;
+    padding: 40px;
+}
+.grid-row {
+    flex-direction: row !important;
+}
+.grid-container .col-box {
+    padding: 20px 10px;
+    border: 1px solid grey;
+    margin: 40px 0;
+}
+@media (max-width: 999px) {
+    /* .grid-container {
+        margin: 10px;
+        padding: 10px;
+    } */
+    body {
+        padding: 5px;
+    }
+    .grid-container .col-box {
+        height: auto;
+        margin: 10px 0;
+    }
+}
+.col-heading {
+    padding: 6px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 14px;
+}
+.grid-button {
+    border: none;
+    transition: all .25s ease-in;
+    margin: 4px;
+    color: black;
+    font-size: 14px;
+}
+.grid-button:hover {
+    background: purple;
+    color: white;
+}
+.bold {
+    font-weight: 600;
+}
+.size {
+    font-size: 15px;
+}
+.underline {
+    text-decoration: underline;
+}
+.red {
+    color: red;
+}
+.italic {
+    font-style: italic;
+} 
+.normal {
+    font-weight: 400;
+    font-style: normal;
+}
+/* SecondStyle===========
+====================== */
+.Secondbold {
+    font-weight: 600;
+}
+.Secondsize {
+    font-size: 15px;
+}
+.Secondunderline {
+    text-decoration: underline;
+}
+.Secondred {
+    color: red;
+}
+.Seconditalic {
+    font-style: italic;
+} 
+.Secondnormal {
+    font-weight: 400;
+    font-style: normal;
+}
+/* ThirsStyle============
+====================== */
+.Thirdbold {
+    font-weight: 600;
+}
+.Thirdsize {
+    font-size: 15px;
+}
+.Thirdunderline {
+    text-decoration: underline;
+}
+.Thirdred {
+    color: red;
+}
+.Thirditalic {
+    font-style: italic;
+} 
+.Thirdnormal {
+    font-weight: 400;
+    font-style: normal;
+}
+/* FourthStyle===========
+====================== */
+.Fourthbold {
+    font-weight: 600;
+}
+.Fourthsize {
+    font-size: 15px;
+}
+.Fourthunderline {
+    text-decoration: underline;
+}
+.Fourthred {
+    color: red;
+}
+.Fourthitalic {
+    font-style: italic;
+} 
+.Fourthnormal {
+    font-weight: 400;
+    font-style: normal;
+}
